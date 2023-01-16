@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    interface IQuittable
+    interface IQuittable// creating Interface called IQuittable
     {
-        void Quit();
+        void Quit();// define with void method
     }
 }
