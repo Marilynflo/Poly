@@ -10,10 +10,10 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            IQuittable employee = new Employees();
+            IQuittable employee = new Employees();// creating an employee object
             employee.Quit();
 
-            Employees name = new Employees() { FirstName = "Sample", LastName = "Student" };
+            Employees name = new Employees() { FirstName = "Sample", LastName = "Student" };//assigning values
             name.SayName();
             Console.ReadLine();
         }
