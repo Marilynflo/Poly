@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    public abstract class Person
+    public abstract class Person //creating a class with two string data types
     {
-        public string FirstName;
+        public string FirstName; 
         public string LastName;
         public abstract void SayName();
     }
 
-    public class Employees : Person, IQuittable
+    public class Employees : Person, IQuittable// inheriting from Person, IQuitabble
     {
 
         public void Quit()
@@ -22,7 +22,7 @@ namespace Interfaces
         }
         public override void SayName()
         {
-            Console.WriteLine(FirstName + " " + LastName);
+            Console.WriteLine(FirstName + " " + LastName);//displaying the value on the console.
         }
     }
 }
